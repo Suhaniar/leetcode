@@ -1,13 +1,3 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
 
     public ListNode reverse(ListNode head) {
@@ -26,23 +16,26 @@ class Solution {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
-        // Step 1: Reverse the list
+        // Reverse the list
         head = reverse(head);
 
-        // Step 2: Delete nth node from beginning
+        // Delete nth node from beginning
         if (n == 1) {
             head = head.next;
         } else {
-            ListNode temp = head;
 
-            for (int i = 1; i < n - 1; i++) {
+            ListNode temp = head;
+            int count = 1;
+
+            while (count < n - 1) {
                 temp = temp.next;
+                count++;
             }
 
             temp.next = temp.next.next;
         }
 
-        // Step 3: Reverse again
+        // Reverse again
         head = reverse(head);
 
         return head;
