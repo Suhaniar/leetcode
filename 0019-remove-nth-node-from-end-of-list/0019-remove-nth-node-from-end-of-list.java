@@ -1,42 +1,27 @@
 class Solution {
-
-    public ListNode reverse(ListNode head) {
-        ListNode prev = null;
-        ListNode curr = head;
-
-        while (curr != null) {
-            ListNode nextNode = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = nextNode;
-        }
-
-        return prev;
-    }
-
     public ListNode removeNthFromEnd(ListNode head, int n) {
 
-        // Reverse the list
-        head = reverse(head);
+        int len = 0;
+        ListNode temp = head;
 
-        // Delete nth node from beginning
-        if (n == 1) {
-            head = head.next;
-        } else {
-
-            ListNode temp = head;
-            int count = 1;
-
-            while (count < n - 1) {
-                temp = temp.next;
-                count++;
-            }
-
-            temp.next = temp.next.next;
+        while (temp != null) {
+            len++;
+            temp = temp.next;
         }
 
-        // Reverse again
-        head = reverse(head);
+        int pos = len - n;
+
+        if (pos == 0) {
+            return head.next;
+        }
+
+        temp = head;
+
+        for (int i = 0; i < pos - 1; i++) {
+            temp = temp.next;
+        }
+
+        temp.next = temp.next.next;
 
         return head;
     }
