@@ -1,55 +1,27 @@
 class Solution {
-
-    private ListNode getMid(ListNode head) {
-
-        ListNode slow = head;
-        ListNode fast = head.next;
-
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-
-        return slow;
-    }
-
-    private ListNode merge(ListNode l1, ListNode l2) {
-
-        ListNode dummy = new ListNode(-1);
-        ListNode tail = dummy;
-
-        while (l1 != null && l2 != null) {
-
-            if (l1.val <= l2.val) {
-                tail.next = l1;
-                l1 = l1.next;
-            } else {
-                tail.next = l2;
-                l2 = l2.next;
-            }
-
-            tail = tail.next;
-        }
-
-        if (l1 != null) tail.next = l1;
-        if (l2 != null) tail.next = l2;
-
-        return dummy.next;
-    }
-
     public ListNode sortList(ListNode head) {
 
-        if (head == null || head.next == null)
-            return head;
+        if (head == null) return null;
 
-        ListNode mid = getMid(head);
+        ArrayList<Integer> arr = new ArrayList<>();
 
-        ListNode right = mid.next;
-        mid.next = null;
+        ListNode temp = head;
 
-        ListNode leftSorted = sortList(head);
-        ListNode rightSorted = sortList(right);
+        while (temp != null) {
+            arr.add(temp.val);
+            temp = temp.next;
+        }
 
-        return merge(leftSorted, rightSorted);
+        Collections.sort(arr);
+
+        temp = head;
+        int i = 0;
+
+        while (temp != null) {
+            temp.val = arr.get(i++);
+            temp = temp.next;
+        }
+
+        return head;
     }
 }
