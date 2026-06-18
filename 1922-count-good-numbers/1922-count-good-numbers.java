@@ -9,22 +9,20 @@ class Solution {
 
         long half = power(x, n / 2);
 
-        long ans = (half * half) % MOD;
-
-        if (n % 2 == 1) {
-            ans = (ans * x) % MOD;
+        if (n % 2 == 0) {
+            return (half * half) % MOD;
         }
 
-        return ans;
+        return (((half * half) % MOD) * x) % MOD;
     }
 
     public int countGoodNumbers(long n) {
 
-        long even = (n + 1) / 2;
-        long odd = n / 2;
+        long evenPositions = (n + 1) / 2;
+        long oddPositions = n / 2;
 
-        long evenWays = power(5, even);
-        long oddWays = power(4, odd);
+        long evenWays = power(5, evenPositions);
+        long oddWays = power(4, oddPositions);
 
         return (int)((evenWays * oddWays) % MOD);
     }
