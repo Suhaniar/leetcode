@@ -2,18 +2,17 @@ class Solution {
 
     long MOD = 1000000007;
 
-    private long power(long x, long n) {
+    public long power(long x, long n) {
 
-        long ans = 1;
+        if (n == 0)
+            return 1;
 
-        while (n > 0) {
+        long half = power(x, n / 2);
 
-            if ((n & 1) == 1) {
-                ans = (ans * x) % MOD;
-            }
+        long ans = (half * half) % MOD;
 
-            x = (x * x) % MOD;
-            n /= 2;
+        if (n % 2 == 1) {
+            ans = (ans * x) % MOD;
         }
 
         return ans;
@@ -21,11 +20,11 @@ class Solution {
 
     public int countGoodNumbers(long n) {
 
-        long evenPositions = (n + 1) / 2;
-        long oddPositions = n / 2;
+        long even = (n + 1) / 2;
+        long odd = n / 2;
 
-        long evenWays = power(5, evenPositions);
-        long oddWays = power(4, oddPositions);
+        long evenWays = power(5, even);
+        long oddWays = power(4, odd);
 
         return (int)((evenWays * oddWays) % MOD);
     }
