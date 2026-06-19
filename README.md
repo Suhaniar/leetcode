@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0039-combination-sum](https://github.com/Suhaniar/leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/Suhaniar/leetcode/tree/main/0518-coin-change-ii/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -89,4 +90,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/Suhaniar/leetcode/tree/main/0022-generate-parentheses/) | Medium |
+| [0039-combination-sum](https://github.com/Suhaniar/leetcode/tree/main/0039-combination-sum/) | Medium |
 <!---LeetCode Topics End-->
