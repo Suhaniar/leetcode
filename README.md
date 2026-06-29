@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/Suhaniar/leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Suhaniar/leetcode/tree/main/0040-combination-sum-ii/) | Medium |
+| [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
 | [0518-coin-change-ii](https://github.com/Suhaniar/leetcode/tree/main/0518-coin-change-ii/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -87,10 +88,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Suhaniar/leetcode/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0022-generate-parentheses](https://github.com/Suhaniar/leetcode/tree/main/0022-generate-parentheses/) | Medium |
+| [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/Suhaniar/leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/Suhaniar/leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Suhaniar/leetcode/tree/main/0040-combination-sum-ii/) | Medium |
+| [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
 <!---LeetCode Topics End-->
