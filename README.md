@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/Suhaniar/leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/Suhaniar/leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/Suhaniar/leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0169-majority-element](https://github.com/Suhaniar/leetcode/tree/main/0169-majority-element/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/Suhaniar/leetcode/tree/main/0051-n-queens/) | Hard |
 | [0075-sort-colors](https://github.com/Suhaniar/leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
+| [0169-majority-element](https://github.com/Suhaniar/leetcode/tree/main/0169-majority-element/) | Easy |
 | [0518-coin-change-ii](https://github.com/Suhaniar/leetcode/tree/main/0518-coin-change-ii/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -72,11 +74,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0148-sort-list](https://github.com/Suhaniar/leetcode/tree/main/0148-sort-list/) | Medium |
+| [0169-majority-element](https://github.com/Suhaniar/leetcode/tree/main/0169-majority-element/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/Suhaniar/leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0148-sort-list](https://github.com/Suhaniar/leetcode/tree/main/0148-sort-list/) | Medium |
+| [0169-majority-element](https://github.com/Suhaniar/leetcode/tree/main/0169-majority-element/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -109,4 +113,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0169-majority-element](https://github.com/Suhaniar/leetcode/tree/main/0169-majority-element/) | Easy |
 <!---LeetCode Topics End-->
