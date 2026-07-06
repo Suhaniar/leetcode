@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Suhaniar/leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0031-next-permutation](https://github.com/Suhaniar/leetcode/tree/main/0031-next-permutation/) | Medium |
 | [0061-rotate-list](https://github.com/Suhaniar/leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/Suhaniar/leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0141-linked-list-cycle](https://github.com/Suhaniar/leetcode/tree/main/0141-linked-list-cycle/) | Easy |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0031-next-permutation](https://github.com/Suhaniar/leetcode/tree/main/0031-next-permutation/) | Medium |
 | [0039-combination-sum](https://github.com/Suhaniar/leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Suhaniar/leetcode/tree/main/0040-combination-sum-ii/) | Medium |
 | [0051-n-queens](https://github.com/Suhaniar/leetcode/tree/main/0051-n-queens/) | Hard |
