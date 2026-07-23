@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/Suhaniar/leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0079-word-search](https://github.com/Suhaniar/leetcode/tree/main/0079-word-search/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Suhaniar/leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0152-maximum-product-subarray](https://github.com/Suhaniar/leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/Suhaniar/leetcode/tree/main/0169-majority-element/) | Easy |
 | [0518-coin-change-ii](https://github.com/Suhaniar/leetcode/tree/main/0518-coin-change-ii/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Suhaniar/leetcode/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/Suhaniar/leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0053-maximum-subarray](https://github.com/Suhaniar/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Suhaniar/leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0152-maximum-product-subarray](https://github.com/Suhaniar/leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0518-coin-change-ii](https://github.com/Suhaniar/leetcode/tree/main/0518-coin-change-ii/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
